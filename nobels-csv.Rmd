@@ -29,10 +29,10 @@ nobel_nonstem <- nobel %>%
 And finally write out the data:
 
 ```{r label-me3}
-write_csv(nobel_stem, file = "data/nobel_stem.csv")
+#write_csv(nobel_stem, file = "data/nobel_stem.csv")
 
 ```
 ```{r}
-write_csv(nobel_nonstem, file = "data/nobel_nonstem.csv")
+#write_csv(nobel_nonstem, file = "data/nobel_nonstem.csv")
 ```
 

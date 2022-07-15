@@ -27,5 +27,9 @@ nobel_nonstem <- nobel %>%
 And finally write out the data:
 
 ``` r
-# add code for writing out the two data frames here
+#write_csv(nobel_stem, file = "data/nobel_stem.csv")
+```
+
+``` r
+#write_csv(nobel_nonstem, file = "data/nobel_nonstem.csv")
 ```
